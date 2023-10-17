@@ -36,7 +36,7 @@ const TitleList = ({
         <h2>Search by Title</h2>
       </div>
       <div className="Item-container">
-        {listIsPopulated() ? <>{listItems}</> : <h2>No Results Found</h2>}
+        {listIsPopulated() ? <>{listItems}</> : <h2>Loading...</h2>}
       </div>
     </>
   );

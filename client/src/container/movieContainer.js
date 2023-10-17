@@ -19,6 +19,7 @@ const MovieContainer = () => {
   const [favouriteMovies, setFavouriteMovies] = useState([]);
   const [homeMovies, setHomeMovies] = useState([]);
 
+
   useEffect(() => {
     fetchMyData();
   }, []);
