@@ -1,4 +1,8 @@
-const baseURL = 'http://localhost:9000/movies/';
+//URL for localhost testing
+// const baseURL = 'http://localhost:9000/movies/';
+
+// prod URL for the deployed backend
+const baseURL = 'https://moviematchtest-api.onrender.com/movies/';
 
 export const getMovies = () => {
   return fetch(baseURL)
