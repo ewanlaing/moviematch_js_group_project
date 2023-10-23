@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import ScrollToTop from "./scrollToTop";
 
 const ActorForm = ({ searchByActor, movies, shuffle }) => {
   const [text, setText] = useState("");
@@ -29,7 +30,7 @@ const ActorForm = ({ searchByActor, movies, shuffle }) => {
 
   return (
     <>
-      <div className="App">
+      <div  className="App">
         <form onSubmit={handleSubmit}>
           <input
             type="text"

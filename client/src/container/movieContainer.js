@@ -4,6 +4,7 @@ import DirectorList from "../components/directorList";
 import HomeList from "../components/homeList";
 import { getMovies, updateMovie } from "../movieService";
 import ActorList from "../components/actorList";
+import ScrollToTop from "../components/scrollToTop";
 
 import TitleList from "../components/titleList";
 
@@ -82,11 +83,17 @@ const MovieContainer = () => {
     setFilteredMoviesByTitle(searchList);
   };
 
+  const scrollUp = () => {
+    document.documentElement.scrollTop = 0
+  }
+
   return (
 
     <>
       <Router>
+
         <Header favouriteMovies={favouriteMovies} />
+        <ScrollToTop scrollUp={scrollUp}/>
         <Routes>
           <Route
             path="/"
@@ -159,6 +166,7 @@ const MovieContainer = () => {
             }
           />
         </Routes>
+        
       </Router>
     </>
   );
