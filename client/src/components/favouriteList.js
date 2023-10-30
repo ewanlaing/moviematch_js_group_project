@@ -22,6 +22,15 @@ const FavouriteList = ({ movies, toggleFavourites }) => {
 
   return (
     <>
+         <br></br>
+    <br></br>
+    <br></br>
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
       <div className="App">
         <h2>Favourites</h2>
       </div>

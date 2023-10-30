@@ -26,6 +26,15 @@ const DirectorList = ({
   return (
 
     <>
+      <br></br>
+    <br></br>
+    <br></br>
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
       <DirectorForm
         searchByDirector={searchByDirector}
         movies={allMovies}

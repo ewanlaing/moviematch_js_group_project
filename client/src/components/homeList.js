@@ -14,6 +14,15 @@ const HomeList = ({ movies, toggleFavourites }) => {
   return (
     <>
       <>
+      <br></br>
+    <br></br>
+    <br></br>
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
         <div className="App"></div>
         <div className="Item-container">{listItems}</div>
       </>

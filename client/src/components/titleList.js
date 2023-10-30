@@ -27,6 +27,15 @@ const TitleList = ({
   return (
 
     <>
+      <br></br>
+    <br></br>
+    <br></br>
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
       <TitleForm
         searchByTitle={searchByTitle}
         movies={allMovies}
