@@ -1,5 +1,6 @@
 import MovieByActor from "./movieByActor";
 import ActorForm from "./actorForm";
+import ScrollToTop from "./scrollToTop";
 
 const ActorList = ({
   movies,
@@ -19,12 +20,15 @@ const ActorList = ({
   });
 
 
+
+
   const listIsPopulated = () => {
     return movies.length > 0;
   };
 
   return (
     <>
+
       <br></br>
     <br></br>
     <br></br>
@@ -34,6 +38,7 @@ const ActorList = ({
     <br></br> 
     <br></br> 
     <br></br> 
+
       <ActorForm
         searchByActor={searchByActor}
         movies={allMovies}
@@ -43,8 +48,9 @@ const ActorList = ({
         <h2>Search by Actor</h2>
       </div>
       <div className="Item-container">
-        {listIsPopulated() ? <>{listItems}</> : <h2>No Results Found</h2>}
+        {listIsPopulated() ? <>{listItems}</> : <h2>Loading...</h2>}
       </div>
+
     </>
   );
 };
