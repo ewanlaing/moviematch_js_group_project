@@ -25,6 +25,15 @@ const ActorList = ({
 
   return (
     <>
+      <br></br>
+    <br></br>
+    <br></br>
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
+    <br></br> 
       <ActorForm
         searchByActor={searchByActor}
         movies={allMovies}
