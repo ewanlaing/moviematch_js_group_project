@@ -1,10 +1,11 @@
-import React from 'react'
+import React from "react";
 
-const ScrollToTop = ({scrollUp}) => {
-
+const ScrollToTop = ({ scrollUp }) => {
   return (
-    <button onClick={scrollUp} className='scroll'>Scroll to top</button>
-  )
-}
+    <button onClick={scrollUp} className="scroll" id='scrollToTopButton'>
+      Scroll to top
+    </button>
+  );
+};
 
-export default ScrollToTop
+export default ScrollToTop;
