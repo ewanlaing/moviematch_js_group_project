@@ -15,9 +15,10 @@ const FavouritesHeart = ({ movie, toggleFavourites }) => {
         <img
           onClick={handleClick}
           src={require("../images/HeartSolidWhite.png")}
+          id='toggledHeartButton'
         />
       ) : (
-        <img onClick={handleClick} src={require("../images/Heart1.png")} />
+        <img onClick={handleClick} src={require("../images/Heart1.png")} id='untoggledHeartButton' />
       )}
     </div>
   );

@@ -5,9 +5,7 @@ import HomeList from "../components/homeList";
 import { getMovies, updateMovie } from "../movieService";
 import ActorList from "../components/actorList";
 import ScrollToTop from "../components/scrollToTop";
-
 import TitleList from "../components/titleList";
-
 import Header from "../components/header";
 import MovieDetail from "../components/movieDetail";
 import FavouriteList from "../components/favouriteList";
@@ -87,11 +85,11 @@ const MovieContainer = () => {
     document.documentElement.scrollTop = 0
   }
 
+
   return (
 
     <>
       <Router>
-
         <Header favouriteMovies={favouriteMovies} />
         <ScrollToTop scrollUp={scrollUp}/>
         <Routes>
